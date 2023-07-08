@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: hsl(0, 0%, 94%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    margin-top: 7%;
+    border-radius: 20px 20px 100px 20px;
+    padding: 3%;
+}
+
+.flex {
+ display: flex;
+ width:  80%;
+ justify-content: space-between; gap: 5px;
+ 
+}
+
+
+.errorDay {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+.errorMonth {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+.errorYear {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+
+.errorDayTwo {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+.errorMonthTwo {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+.errorYearTwo {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    display: none;
+}
+
+
+
+.dateDay {
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 1%, 44%);
+}
+
+.dateMonth {
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 1%, 44%);
+}
+
+.dateYear {
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 1%, 44%);
+}
+
+
+
+input {
+    width: 90%;
+    padding: 12%;
+    border-radius: 10px;
+    outline: none;
+    border:  1px solid hsl(0, 0%, 86%);
+}
+
+input:hover {
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+
+button {
+    padding: 15px;
+   border-radius: 50%;
+   border: none;
+   float: right;
+   background-color:hsl(259, 100%, 65%) ;
+   margin-top: 20px;
+   
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1px;
+}
