@@ -2,12 +2,12 @@
 
 This is an age calculator app i created for the frontend mentor.io challenge
 
- PROGRAMMING LANGUAGED USED
--HTML
--CSS
--JAVASCRIPT
+# PROGRAMMING LANGUAGED USED
+1)HTML
+2)CSS
+3)JAVASCRIPT
 
- CHALLANGES FACED WHEN CREATING THIS PROJECT
+# CHALLANGES FACED WHEN CREATING THIS PROJECT
 one of the biggest challenges i faced when working on this challenge was implementing the javascript.
 
 # HOW TO USE
